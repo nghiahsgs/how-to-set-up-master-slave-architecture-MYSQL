@@ -100,11 +100,7 @@ mysql -u root -p
 ```
 
 ```sql
-CREATE USER replication_user@192.168.178.137 IDENTIFIED BY 'StrongP@ssw0rd';
-```
-
-```sql
-CREATE USER replication_user2@192.168.178.137 IDENTIFIED WITH mysql_native_password BY 'StrongP@ssw0rd';
+CREATE USER replication_user@192.168.178.137 IDENTIFIED WITH mysql_native_password BY 'StrongP@ssw0rd';
 ```
 
 
